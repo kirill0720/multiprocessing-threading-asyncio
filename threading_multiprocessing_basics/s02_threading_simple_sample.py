@@ -1,4 +1,4 @@
-"""Module threading for multithreading programs"""
+"""Module threading_multiprocessing_basics for multithreading programs"""
 
 from time import sleep, perf_counter
 from threading import Thread

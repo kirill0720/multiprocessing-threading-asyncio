@@ -7,7 +7,7 @@ They start competing to see which thread will write the value to the variable la
 Only the value from the thread that writes the value to the shared variable last will be saved,
 because it will overwrite the previous value.
 
-To prevent race conditions, you can use the Lock class from the threading module.
+To prevent race conditions, you can use the Lock class from the threading_multiprocessing_basics module.
 """
 from threading import Thread, Lock
 from time import sleep
