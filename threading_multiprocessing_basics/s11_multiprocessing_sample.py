@@ -24,4 +24,4 @@ if __name__ == '__main__':
     p1.join()
     p2.join()
 
-    print(f'Execution took {time.perf_counter() - start:} seconds.')
+    print(f'Execution took {time.perf_counter() - start} seconds.')

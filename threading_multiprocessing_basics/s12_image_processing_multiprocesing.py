@@ -44,4 +44,4 @@ if __name__ == '__main__':
     with ProcessPoolExecutor() as executor:
         executor.map(create_thumbnail, filenames)
 
-    print(f'Execution took {time.perf_counter() - start:} seconds.')
+    print(f'Execution took {time.perf_counter() - start} seconds.')
